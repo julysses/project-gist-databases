@@ -2,7 +2,6 @@ import os
 import json
 import pytest
 import responses
-py
 from gists_database.importer import import_gists_to_database
 
 from .config import TESTING_GISTS_PATHS
